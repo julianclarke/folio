@@ -74,7 +74,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>I am a marketing strategist, designer, data guy, athlete, and human.</h2>
-                    <p class="lead">I’m a creative data guy – both in research and analysis – fueled by my major curiosity. I’m a visual-oral-textual-and-marketing communicator. I’ve been distinguished for my writing and editing skills. I’m scrupulous, a multitasker, and my theme song is Midnight City by M83.</p>
+                    <p class="lead">I love changing the way people experience brands and I’m a creative data guy – both in research and analysis – fueled by my major curiosity. I’m a visual-oral-textual-and-marketing communicator. I’ve been distinguished for my writing and editing skills. I’m scrupulous, a multitasker, and my theme song is Midnight City by M83.</p>
                 </div>
             </div>
             <!-- /.row -->
@@ -163,21 +163,22 @@
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
+                                <a href="#" rel="popover">
                                     <img class="img-portfolio img-responsive" src="img/Rush%20Beta%20F14.png">
+                                     <div class="popover" role="tooltip"><div class="arrow"></div><h3 class="popover-title"></h3><div class="popover-content"></div></div>
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
+                                <a href="img/glaser%20preview.png">
                                     <img class="img-portfolio img-responsive" src="img/glaser%20preview.png">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
+                                <a href="img/ifclogo.jpg" rel="lightbox">
                                     <img class="img-portfolio img-responsive" src="img/ifclogo.jpg">
                                 </a>
                             </div>
@@ -208,6 +209,7 @@
     </aside>
 
     <!-- Footer -->
+    <section id="contact">
     <footer>
         <div class="container">
             <div class="row">
@@ -242,6 +244,7 @@ href="http://linkedin.com/in/clarkejulian"><i class="fa fa-linkedin fa-fw fa-3x"
             </div>
         </div>
     </footer>
+    </section>
 
     <!-- jQuery Version 1.11.0 -->
     <script src="js/jquery-1.11.0.js"></script>
@@ -262,6 +265,10 @@ href="http://linkedin.com/in/clarkejulian"><i class="fa fa-linkedin fa-fw fa-3x"
         e.preventDefault();
         $("#sidebar-wrapper").toggleClass("active");
     });
+        
+        $(function () { 
+    $("[rel=popover]").popover();   
+});
 
     // Scrolls to the selected menu item on the page
     $(function() {

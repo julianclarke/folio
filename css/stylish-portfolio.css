@@ -201,10 +201,12 @@ hr.small {
 
 .portfolio-item {
     margin-bottom: 30px;
+    
 }
 
 .img-portfolio {
     margin: 0 auto;
+   
 }
 
 .img-portfolio:hover {
