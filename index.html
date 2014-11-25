@@ -15,7 +15,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="css/custom1.css" rel="stylesheet">
+    <link href="css/custom2.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -60,12 +61,23 @@
 
     <!-- Header -->
     <header id="top" class="header">
-        <div class="text-vertical-center">
-            <h1>HI, I'M JULIAN.</h1>
-            <h3>It's nice to meet you.</h3>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg">Get to know me a little better.</a>
-        </div>
+            <div class="img-responsive img-centered">
+                    <div class="team-member">
+                        <br><br><br><br><br><br>
+                        <img src="img/headshot%20crop.jpg" class="img-responsive img-circle" height="400px" width="400px" alt="">
+                        <h3>Hi, I'm Julian Clarke<br>It's nice to meet you.</h3>
+                        <ul class="list-inline">
+                            <li><a href="https://twitter.com/julianpclarke" target="_blank"><i class="fa fa-inverse fa-2x fa-twitter"></i></a>
+                            </li>
+                            <li><a href="https://github.com/julianclarke" target="_blank"><i class="fa fa-inverse fa-2x fa-github"></i></a>
+                            </li>
+                            <li><a href="http://linkedin.com/in/clarkejulian" target="_blank"><i class="fa fa-inverse fa-2x fa-linkedin"></i></a>
+                            <li><a href="mailto:julianpclarke@gmail.com"><i class="fa fa-inverse fa-2x fa-send-o"></i></a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
     </header>
 
     <!-- About -->
@@ -84,7 +96,7 @@
 
     <!-- Services -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="services" class="services bg-primary">
+    <section id="services" class="services bg-light-gray">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
@@ -94,7 +106,7 @@
                         <div class="col-md-4 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-inverse fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-cloud fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
@@ -107,7 +119,7 @@
                         <div class="col-md-4 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-inverse fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-compass fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
@@ -120,7 +132,7 @@
                         <div class="col-md-4 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-inverse fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-shield fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
@@ -147,55 +159,87 @@
         </div>
     </aside>
 
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
+     <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="img/iphone.png">
-                                    <img class="img-portfolio img-responsive" src="img/iphone.png">
-                                </a>
+                 <div class="col-md-6 col-sm-6 portfolio-item">
+                    <a data-target="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="img/Rush%20Beta%20F14.png" rel="popover">
-                                    <img class="img-portfolio img-responsive" src="img/Rush%20Beta%20F14.png">
-                                     <div class="popover" role="tooltip"><div class="arrow"></div><h3 class="popover-title"></h3><div class="popover-content"></div></div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="img/glaser%20preview.png">
-                                    <img class="img-portfolio img-responsive" src="img/glaser%20preview.png">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="img/ifclogo.jpg" rel="lightbox">
-                                    <img class="img-portfolio img-responsive" src="img/ifclogo.jpg">
-                                </a>
-                            </div>
-                        </div>
+                        <img src="img/landinghome.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Fratapus</h4>
+                        <p class="text-muted">Web Development + Branding + Marketing</p>
                     </div>
-                    <!-- /.row (nested) -->
-                    <a href="mailto:julianpclarke@gmail.com" class="btn btn-dark">Ask About My Work</a>
                 </div>
-                <!-- /.col-lg-10 -->
+                <div class="col-md-6 col-sm-6 portfolio-item">
+                    <a data-target="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/Rush%20Beta%20F14.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Rush Beta</h4>
+                        <p class="text-muted">Branding + Marketing</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 portfolio-item">
+                    <a data-target="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/iphone.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>SyncID</h4>
+                        <p class="text-muted">UI/UX Design</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 portfolio-item">
+                    <a data-target="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/ifclogo%20final.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Washington U. Interfraternity Council</h4>
+                        <p class="text-muted">Brand Identity</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 portfolio-item">
+                    <a data-target="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/glaser%20preview.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Milton Glaser</h4>
+                        <p class="text-muted">Book Design</p>
+                    </div>
+                </div>
             </div>
-            <!-- /.row -->
         </div>
-        <!-- /.container -->
+    </div>
     </section>
 
     <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
+    <aside class="call-to-action">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -245,12 +289,146 @@ href="http://linkedin.com/in/clarkejulian"><i class="fa fa-linkedin fa-fw fa-3x"
         </div>
     </footer>
     </section>
+    
+     <!-- Portfolio Modal 1 -->
+ <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Fratapus</h2>
+                            <p class="item-intro text-muted">The future of fraternity recruitment.</p>
+                            <img class="img-responsive img-centered" src="img/landinghome.jpg" alt="">
+                            <img class="img-responsive img-centered" src="img/productteam.jpg" alt="">
+                            <img class="img-responsive img-centered" src="img/signup.jpg" alt="">
+                            <p><a href="http://fratapus.com"><b>Fratapus</b></a> is a web-based fraternity recruitment application designed to streamline the entire rush process for brotherhoods, and particularly recruitment chairs. we had several of the ordinary rush issues ourselves and decided it was time to start doing rush better. We made <b>Fratapus</b> to solve them.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Beta Theta Pi</h2>
+                            <p class="item-intro text-muted">Making a more successful recruitment through promotion.</p>
+                            <img class="img-responsive img-centered" src="img/rushprofpic.png" alt="">
+                            <img class="img-responsive img-centered" src="img/Rush%20Beta%20F14.png" alt="">
+                            <p>Playing off of the iconic Ray Ban brand, I was able to draw more attention to the fraternity's rush process, which saw over 300 attendees at multiple events. This exceeded the next closest house by almost 100.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
+                            <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
+                            <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Porfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Project Name</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
+                            <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- jQuery Version 1.11.0 -->
     <script src="js/jquery-1.11.0.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/agency%20copy.js"></script>
+    
 
     <!-- Custom Theme JavaScript -->
     <script>
