@@ -5,18 +5,68 @@
   <meta name='description' content='julian clarke.'>
 
   <link rel="stylesheet" type="text/css"
-          href="https://fonts.googleapis.com/css?family=Montserrat">
-          
+          href="https://fonts.googleapis.com/css?family=Work+Sans">
+
   <style type='text/css'>
+
+  :root {
+    font-size: 12px;
+    /* padding: 10rem; */
+  }
+  @media (max-width:767px) {
+     {padding: 2rem;}
+    }
+    .css-1eneu9q {
+      font-size:2rem;
+      line-height:2rem;
+      -webkit-letter-spacing:0.03em;
+      -moz-letter-spacing:0.03em;
+      -ms-letter-spacing:0.03em;
+      letter-spacing:0.03em;
+      margin:1rem 0 2rem;
+      }
+    .css-1eneu9q > div:first-child {
+      margin-bottom:2rem;
+      }
+    .css-1eneu9q > div:last-child {
+      line-height:2rem;font-size:1.6rem;
+    }
+
+
   body {
 
-    font-family: Montserrat, sans-serif;
+    font-family: 'Work Sans', Helvetica;
     text-align: left;
     color: #2c3e50;
     font-weight:;
-    padding-left: 50px;
+    padding-top: 8rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background: linear-gradient(-45deg, #23A9CF 0%, #73EBB8 100%) center center fixed;
+    background-image: linear-gradient(-45deg, rgb(35, 169, 207) 0%, rgb(115, 235, 184) 100%);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: fixed;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
   }
-      
+
+  .box {
+    width:75%;
+    max-width:75%;
+    color:#32325d;
+    padding:4rem;
+    position:relative;
+    margin:0 auto;
+    background-color:white;
+    border-radius:0.4rem;
+    box-shadow:0 1rem 3.5rem rgba(0,0,0,0.2);
+  }
+
   #top {
     text-align: left;
     margin-top: 20px;
@@ -44,7 +94,7 @@
   }
   #footer {
       padding-bottom: 100px 0;
-  } 
+  }
   a {
     color: #2f3555;
     text-decoration: none;
@@ -53,8 +103,79 @@
     font-size: 100px;
     margin-top: 150px;
     margin-bottom: 10px;
-      
+    position: absolute;
+    align-self: center;
+
+
   }
+
+  .container {
+    position: absolute center center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /*justify-content: flex-start; */
+  }
+
+  .css-aygf07 {
+    display:block;
+    line-height:4rem;
+    padding:0 1.4rem;
+    box-shadow:0 0.4rem 0.6rem rgba(50,50,93,0.1);
+    background:#fff;border-radius:0.4rem;
+    font-size:1.2rem;
+    text-transform:uppercase;
+    -webkit-letter-spacing:0.025em;
+    -moz-letter-spacing:0.025em;
+    -ms-letter-spacing:0.025em;
+    letter-spacing:0.025em;
+    text-decoration:none;
+    border:0px;
+    cursor:pointer;
+    outline:none;
+    -webkit-transition:all 0.25s ease-out;
+    transition:all 0.25s ease-out;
+    border:2px solid #2c3e50;
+    color:#2c3e50;
+    font-weight:bold;
+    font-family:'Work Sans';
+    width:100%;
+  }
+  .css-aygf07:first-of-type {
+    margin-right:1rem;
+    }
+  .css-aygf07:hover {
+    background-color:#2c3e50;
+    color:white;
+    }
+  .css-1mgz5fq {
+    margin:4rem -1rem 1rem;
+    font-size:2rem;
+    line-height:2rem;
+    padding:0 1rem;
+    -webkit-letter-spacing:0.03em;
+    -moz-letter-spacing:0.03em;
+    -ms-letter-spacing:0.03em;
+    letter-spacing:0.03em;
+    font-weight: bold;
+  }
+  .css-1s872u7 {
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    margin:1rem auto;
+    -webkit-align-items:center;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -webkit-box-pack:justify;
+    -webkit-justify-content:space-between;
+    -ms-flex-pack:justify;
+    justify-content:space-between;
+    width:100%;
+  }
+
   </style>
     <!-- Start of Async Drift Code -->
 <script>
@@ -64,7 +185,7 @@
   var t = window.driftt = window.drift = window.driftt || [];
   if (!t.init) {
     if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
     t.factory = function(e) {
       return function() {
         var n = Array.prototype.slice.call(arguments);
@@ -86,14 +207,34 @@ drift.load('e9hmxt7385vg');
 <!-- End of Async Drift Code -->
 </head>
   <body>
-    <div id='top-left'><a href="https://medium.com/@julianclarke" target="_blank">blog </a><span style="color:#95a5a6">.</span><a href="https://linkedin.com/in/clarkejulian" target="_blank"> in </a><span style="color:#95a5a6">.</span><a href="https://twitter.com/julianpclarke" target="_blank"> twtr</a>
+    <div class="container box">
+    <div>
+      <div>
+        <div></div>
+        <div class="css-13py0b2 css-ezzh381">
+          <div class="css-1iwgem8 css-ezzh382">
+            <div style="font-size:4rem">🚀</div>
+            <div class="css-1eneu9q css-zte8j62">
+              <div>Hey, I&#x27;m <span style="font-weight:800">Julian Clarke</span></div>
+              <div>I&#x27;m a Product Marketer at<!-- --> <a href="https://lattice.com" target="_blank" style="color:#23A9CF; text-decoration: underline;" >Lattice</a>.
+              </div>
+            </div>
+            <div class="css-1s872u7"><button class="css-aygf07">Work</button><button class="css-aygf07">Reach Out</button>
+            </div>
+            <div class="css-1mgz5fq">Work</div>
     </div>
-    <div id="logo"><a href='mailto:julianpclarke@gmail.com'>julian clarke</a><span style='color:#95a5a6'>.</span></div>
+  </div>
+</div>
+</div>
+</div>
+  <!--  <div id='top-left'><a href="https://medium.com/@julianclarke" target="_blank">blog </a><span style="color:#95a5a6">.</span><a href="https://linkedin.com/in/clarkejulian" target="_blank"> in </a><span style="color:#95a5a6">.</span><a href="https://twitter.com/julianpclarke" target="_blank"> twtr</a>
+  </div> -->
+    <!-- <div id="logo" class="container"><a href='mailto:julianpclarke@gmail.com'>julian clarke</a><span style='color:#95a5a6'>.</span></div>
     <div id='mid'>
         <br/>
         <div id='footer-left'><span style='color:#95a5a6'>currently</span><a href="https://lattice.com"> product marketing @ lattice</a><br/><br/>
             <span style='color:#95a5a6'>before</span> <a href="https://medallia.com" target="_blank">medallia</a>, <a href="https://wustl.edu" target="_blank">wustl</a>, <a href="https://angel.co/fratapus" target="_blank">fratapus</a>, <a href="http://goelastic.com" target="_blank">elasticity</a>, <a href="https://sportsboard.io" target="_blank">sportsboard</a>
         </div>
-    </div>
+    </div> -->
   </body>
 </html>
